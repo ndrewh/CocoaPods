@@ -15,7 +15,6 @@ def cp_gem(name, repo_name, branch = 'master', path: false)
 end
 
 source 'https://rubygems.org'
-
 gemspec
 
 # This is the version that ships with OS X 10.10, so be sure we test against it.
